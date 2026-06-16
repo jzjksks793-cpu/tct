@@ -11,10 +11,10 @@ services:
 
     envVars:
       - key: SESSION_ID
-        sync: true
+        sync: false
       - key: TIMEZONE
-        sync: true
+        sync: false
       - key: PREFIX
-        sync: true
+        sync: false
       - key: POSTGRES_URL
-        sync: true
+        sync: false
